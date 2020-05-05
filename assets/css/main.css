@@ -3783,3 +3783,18 @@ input, select, textarea {
 			}
 
 		}
+
+	.payup {
+		width: 20rem;
+		height: auto;
+		/* border-radius: 50%; */
+	}
+	.hikesf {
+		width: 20rem;
+		height: auto;
+		/* border-radius: 50%; */
+	}
+
+	.space {
+		/* margin: 0 auto; */
+	}
