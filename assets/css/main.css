@@ -3797,10 +3797,11 @@ input, select, textarea {
 
 
 	.techskills {
-		float: left;
+		/* float: left; */
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		margin: 0 1em;
 	}
 
 	.techskills-container {
@@ -3816,3 +3817,10 @@ input, select, textarea {
 		margin: 0em 0.5em;
 	}
 
+	.skillswrapper {
+		width: 100%;
+		display: flex;
+		flex-flow: wrap;
+		align-items: center;
+		justify-content: center;
+	}
