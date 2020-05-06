@@ -178,7 +178,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 	}
 
 		p.content {
@@ -2796,9 +2796,9 @@ input, select, textarea {
 
 	.features {
 		display: -moz-flex;
-		display: -webkit-flex;
+		/* display: -webkit-flex; */
 		display: -ms-flex;
-		display: flex;
+		/* display: flex; */
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
@@ -2814,14 +2814,14 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			/* width: calc(43.33333% - 2em); */
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
 		}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
-				margin-top: 0;
+				margin-top: 3rem;
 			}
 
 			.features li > :last-child {
@@ -3785,16 +3785,34 @@ input, select, textarea {
 		}
 
 	.payup {
-		width: 20rem;
+		width: 100%;
 		height: auto;
 		/* border-radius: 50%; */
 	}
 	.hikesf {
-		width: 20rem;
+		width: 100%;
 		height: auto;
 		/* border-radius: 50%; */
 	}
 
-	.space {
-		/* margin: 0 auto; */
+
+	.techskills {
+		float: left;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
+
+	.techskills-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 10px;
+	}
+
+	.techlogo {
+		width: 5em;
+		height: 5em;
+		margin: 0em 0.5em;
+	}
+
