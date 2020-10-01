@@ -3794,7 +3794,10 @@ input, select, textarea {
 		height: auto;
 		/* border-radius: 50%; */
 	}
-
+	.sound-vision {
+		width: 100%;
+		height: auto;
+	}
 
 	.techskills {
 		/* float: left; */
